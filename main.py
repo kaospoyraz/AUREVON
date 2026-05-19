@@ -19,7 +19,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🤖 AI bot aktif.\nMesaj yazmaya başla."
+        "🌌 Aurevon uyandı.\nSorunu yaz, gerisini bana bırak."
     )
 
 
@@ -42,7 +42,7 @@ async def ai_chat(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 {
                     "role": "system",
                     "content": (
-                        "Sen Zovrix isimli premium Türkçe AI asistansın. "
+                        "AUREVON isimli premium Türkçe AI asistansın. "
                         "Karizmatik, kısa ve akıllı cevaplar ver."
                     )
                 },
